@@ -1,0 +1,16 @@
+<% for(var i = 0; i < allorders.orders.length; i++) { %>
+
+<div class="row cart-row">
+  <div class="col-xs-12 col-md-2">
+   <img src="<%-allorders.orders[i].productImage %>" width="100%">
+ </div>
+ <div class="col-md-6">
+   <div class="product-name"><%- allorders.orders[i].productName %></div>
+  </div>
+ <div class="col-md-3 cart-actions">
+   <div class="product-price-total">$: <%- allorders.orders[i].productPrice %></div>
+ </div>
+</div><!-- cart-row-->
+ 
+
+  <% } %>
