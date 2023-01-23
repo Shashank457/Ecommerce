@@ -28,3 +28,18 @@
 ![image](https://user-images.githubusercontent.com/65387743/209394996-398f42a2-7ac2-48a2-bef2-ebbca3bfe3cf.png)
 
 
+# Installation
+1. Clone repository:
+```bash
+$ git clone https://github.com/Shashank457/Ecommerce.git
+```
+
+2. Install dependencies:
+
+```bash
+$ npm i
+```
+3. Run application:
+```bash
+$ npm run dev
+```
